@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Convenia\\AfdReader\\' => array($vendorDir . '/convenia/afd-reader/src'),
+    'App\\' => array($baseDir . '/app'),
 );

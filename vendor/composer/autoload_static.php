@@ -11,12 +11,20 @@ class ComposerStaticInit51ca8c48dd877eb19df2e6b8c54677fb
         array (
             'Convenia\\AfdReader\\' => 19,
         ),
+        'A' => 
+        array (
+            'App\\' => 4,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Convenia\\AfdReader\\' => 
         array (
             0 => __DIR__ . '/..' . '/convenia/afd-reader/src',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
         ),
     );
 
