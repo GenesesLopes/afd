@@ -9,10 +9,16 @@ set_time_limit(300);
 
 use Convenia\AfdReader\AfdReader;
 
-$afdReader = new AfdReader('ACJEF_42001_251020191313.txt');
+$afdReader = new AfdReader('ACJEF_42003_251020191313.txt');
 
-var_dump(
-    $afdReader->getByUser()
-);
+//Só pra saber quais dados deve acessar
+echo json_encode($afdReader->getByUser());
 
-// echo 'index';
+//Pecorrer array, tranformar em objeto e acessar os dados
+// foreach ($afdReader->getByUser() as $index => $valor) {
+//    foreach ($valor as $key => $valor2) {
+//        $objeto = (object)$valor2;
+//     echo $objeto->sequency."<br>";
+//    }
+   
+// }
