@@ -1,0 +1,10 @@
+{
+    "require": {
+        "convenia/afd-reader": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            
+        }
+    }
+}

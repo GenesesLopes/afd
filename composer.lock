@@ -1,0 +1,74 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0ebd57a3aef752010c1b8739bedc6ce1",
+    "packages": [
+        {
+            "name": "convenia/afd-reader",
+            "version": "v3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/convenia/afd-reader.git",
+                "reference": "7cbeec7b00bf7c61cfc4332778612bf9f2147179"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/convenia/afd-reader/zipball/7cbeec7b00bf7c61cfc4332778612bf9f2147179",
+                "reference": "7cbeec7b00bf7c61cfc4332778612bf9f2147179",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "codacy/coverage": "dev-master",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Convenia\\AfdReader\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Victor Ventura",
+                    "email": "euventura@gmail.com"
+                },
+                {
+                    "name": "Convenia",
+                    "email": "contato@convenia.com.br"
+                },
+                {
+                    "name": "Alex Assunção",
+                    "email": "alex.assuncao@convenia.com.br"
+                }
+            ],
+            "description": "Pacote para leitura de Arquivo Fonte de Dados (AFD). Especificação do MTE referente a portaria 1.510/2009.",
+            "homepage": "https://github.com/convenia/afd-reader",
+            "keywords": [
+                "AFD",
+                "acjef",
+                "afdt",
+                "mte",
+                "php"
+            ],
+            "time": "2018-03-28T20:31:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
